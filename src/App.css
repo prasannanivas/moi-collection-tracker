@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .App-logo {
@@ -35,4 +39,75 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input{
+  width:50%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid blueviolet;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px  rgba(0,0,0,.6);
+  text-align: center;
+}
+
+input:focus{
+  outline: none !important;
+  border-color: #719ECE;
+  text-align: center;
+  box-shadow: 0 0 10px #719ECE; 
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(95, 31, 105, 0.6);
+}
+
+
+select{
+  width:50%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid blueviolet;
+  text-align: center;
+  transition: 0.5s;
+  outline: none;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+select:focus{
+  outline: none !important;
+  border-color: #719ECE;
+  text-align: center;
+  box-shadow: 0 0 10px #719ECE; 
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(95, 31, 105, 0.6);
+}
+
+textarea{
+  width:50%;
+  height: 40px;
+  border-radius: 10px;
+  border-bottom: 1px solid blueviolet;
+  transition: 0.5s;
+  outline: none;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+
+button{
+  width:50%;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  outline: none;
+  font-size: larger;
+  font-family: cursive;
+}
+
+label{
+  font-size: larger;
+  margin-top: 10px;
+  font-family: cursive;
 }
