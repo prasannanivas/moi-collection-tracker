@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/moi-collection-tracker/static/css/main.c997e733.css",
+    "main.js": "/moi-collection-tracker/static/js/main.24cd01f2.js",
+    "index.html": "/moi-collection-tracker/index.html",
+    "main.c997e733.css.map": "/moi-collection-tracker/static/css/main.c997e733.css.map",
+    "main.24cd01f2.js.map": "/moi-collection-tracker/static/js/main.24cd01f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c997e733.css",
+    "static/js/main.24cd01f2.js"
+  ]
+}
