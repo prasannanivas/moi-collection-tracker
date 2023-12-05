@@ -13,7 +13,7 @@ export const data = [
         side:"Groom",
         relation:"friend",
         remarks:"Happy married life",
-        amount:5000
+        amount:300
     },
     {
         id:"3",
