@@ -83,8 +83,8 @@ export function Plot({data}) {
       ],
     };
   return (
-    <div style={{ width:"40vw"}}>
-        <Line options={options} data={chartData} />
+    <div style={{ width:"50vw"}}>
+        <Line style={{ width:"60vw"}} options={options} data={chartData} />
     </div>
     );
 }
